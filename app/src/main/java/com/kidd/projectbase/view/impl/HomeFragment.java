@@ -1,21 +1,14 @@
 package com.kidd.projectbase.view.impl;
 
-import android.os.Bundle;
-
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 
 import com.kidd.projectbase.R;
-import com.kidd.projectbase.view.HomeView;
-import com.kidd.projectbase.presenter.loader.PresenterFactory;
-import com.kidd.projectbase.presenter.HomePresenter;
 import com.kidd.projectbase.injection.AppComponent;
-import com.kidd.projectbase.injection.HomeViewModule;
 import com.kidd.projectbase.injection.DaggerHomeViewComponent;
+import com.kidd.projectbase.injection.HomeViewModule;
+import com.kidd.projectbase.presenter.HomePresenter;
+import com.kidd.projectbase.presenter.loader.PresenterFactory;
+import com.kidd.projectbase.view.HomeView;
 
 import javax.inject.Inject;
 
